@@ -14,7 +14,7 @@ namespace spic {
              * @brief Create a Scene object
              * @spicapi
              * 
-             * @return std::unique_ptr<Scene> 
+             * @return std::unique_ptr<Scene> the new scene
              */
             static std::unique_ptr<Scene> CreateScene();
 
@@ -29,7 +29,7 @@ namespace spic {
              * @brief Get the Active Scene object
              * @spicapi
              * 
-             * @return Scene& 
+             * @return Scene& the current active scene
              */
             static Scene& GetActiveScene();
 
